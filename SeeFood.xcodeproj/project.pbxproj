@@ -13,6 +13,7 @@
 		B5FD30C2268DA9F100F05CDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5FD30C0268DA9F100F05CDF /* Main.storyboard */; };
 		B5FD30C4268DA9F300F05CDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5FD30C3268DA9F300F05CDF /* Assets.xcassets */; };
 		B5FD30C7268DA9F300F05CDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5FD30C5268DA9F300F05CDF /* LaunchScreen.storyboard */; };
+		B5FD30CF268DAB6A00F05CDF /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = B5FD30CE268DAB6A00F05CDF /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B5FD30C3268DA9F300F05CDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5FD30C6268DA9F300F05CDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5FD30C8268DA9F300F05CDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5FD30CE268DAB6A00F05CDF /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				B5FD30C3268DA9F300F05CDF /* Assets.xcassets */,
 				B5FD30C5268DA9F300F05CDF /* LaunchScreen.storyboard */,
 				B5FD30C8268DA9F300F05CDF /* Info.plist */,
+				B5FD30CE268DAB6A00F05CDF /* Inceptionv3.mlmodel */,
 			);
 			path = SeeFood;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5FD30BF268DA9F100F05CDF /* ViewController.swift in Sources */,
+				B5FD30CF268DAB6A00F05CDF /* Inceptionv3.mlmodel in Sources */,
 				B5FD30BB268DA9F100F05CDF /* AppDelegate.swift in Sources */,
 				B5FD30BD268DA9F100F05CDF /* SceneDelegate.swift in Sources */,
 			);
