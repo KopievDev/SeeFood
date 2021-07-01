@@ -23,7 +23,7 @@ class ViewController: UIViewController {
         title = "SeeFood"
         imagePicker.allowsEditing = false
         imagePicker.delegate = self
-        imagePicker.sourceType = .photoLibrary
+        imagePicker.sourceType = .camera
     }
 
     @IBAction func showImagePicker(sender: UIBarButtonItem) {
